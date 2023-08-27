@@ -17,7 +17,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+
 urlpatterns = [
+    # Administrador Django
     path('admin/', admin.site.urls),
+    # Administrador de usuario
+    path('accounts/', include("django.contrib.auth.urls")),
+    # Apps locales
+    path('accounts/', include("accounts.urls")),
     path('', include("pages.urls")),
 ]
+

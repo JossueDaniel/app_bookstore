@@ -4,4 +4,12 @@
 
 {% block content %}
 <h1>Página de inicio</h1>
+{% if user.is_authenticated %}
+    <p>Hola {{ user.username }}</p>
+    <p><a href="{% url 'logout' %}">Cerrar Sesión</a></p>
+{% else %}
+    <p>No has iniciado sesión</p>
+    <a href="{% url 'login' %}">Iniciar Sesión</a>
+    <a href="{% url 'signup' %}">Registrarse</a>
+{% endif %}
 {% endblock content %}
