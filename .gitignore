@@ -2,3 +2,4 @@
 __pycache__
 __pychache__/
 db.sqlite3
+docker-compose-prod.yml

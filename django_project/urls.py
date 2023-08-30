@@ -22,7 +22,7 @@ from django.urls import path, include
 
 urlpatterns = [
     # Administrador Django
-    path('admin/', admin.site.urls),
+    path('fenixde/', admin.site.urls),
     # Administrador de usuario
     path('accounts/', include("allauth.urls")),
     # Apps locales
