@@ -1,6 +1,12 @@
 # App_bookstore
 El proyecto app_bookstore es una aplicación web que permite a los usuarios registrarse y autenticarse para realizar comentarios a los libros publicados por el administrador.
 
+### Características
+- Autenticación de usuario con un modelo personalizado
+- Funcionalidad de  honeypot para ocultar el sitio de administración
+- Docker para crear un contenedor de la aplicación web
+- Docker para crear un contenedor de la base de datos postgresql
+
 ## Requisitos previos
 - Python 3.8 o superior
 - Docker
