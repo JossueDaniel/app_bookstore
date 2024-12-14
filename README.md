@@ -11,7 +11,7 @@ El proyecto app_bookstore es una aplicación web que permite a los usuarios regi
 
 ### 1. Clonar el repositorio
 ```bash
-git clone
+git clone https://github.com/JossueDaniel/app_bookstore.git
 ```
 
 ```bash
